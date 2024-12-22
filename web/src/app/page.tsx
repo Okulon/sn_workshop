@@ -220,10 +220,12 @@ const Page: FC = () => {
                 </tr>
               </thead>
               <tbody>
-                <tr key={1} className={'bg-gray-50'}>
-                  <td className="border-b border-gray-200 p-2">1</td>
-                  <td className="border-b border-gray-200 p-2 text-right">value</td>
+                {lastFiveEvents.map((event, index) => (
+                <tr key={index} className={'bg-gray-50'}>
+                  <td className="border-b border-gray-200 p-2">{lastFiveEvents.length-index}</td>
+                  <td className="border-b border-gray-200 p-2 text-right">{event.data.length>0?event.data[0] : "initial Value"}</td>
                 </tr>
+                ))}
               </tbody>
             </table>
           </div> }
