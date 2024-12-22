@@ -91,7 +91,7 @@ pub mod Counter { //only public for testing
 //          starkli -h (HELP ONLY)
 // starkli signer keystore new keystore.json
 // starkli account oz init account.json --keystore keystore.json (Open zeppelin)
-//          0x04a60673f44c38279e6de8725db4fc91bed2a6807c07eb7b7e94894bed0ccc01 (deployed at)
+//          0x04a60673f44c38279e6de8725db4fc91bed2a6807c07eb7b7e94894bed0ccc01 (deployed at) not true idk why
 // starkli account deploy account.json --keystore keystore.json
 // starkli declare target/dev/sn_workshop_Counter.contract_class.json --account account.json --keystore keystore.json  --> declares classhash 0x063059e1d00c6acac3494c2224e4d54019764c5f093b66cf9772412b821109b0
 // starkli deploy 0x063059e1d00c6acac3494c2224e4d54019764c5f093b66cf9772412b821109b0 --account account.json -- keystore keystore.json --> Deplyed here 0x07de06e0b46751e0361993838c4741c162dc5f7ebe50dcaf9863f94bc93573f7
