@@ -30,28 +30,23 @@ const Page: FC = () => {
       <div className="flex flex-wrap justify-center gap-4">
 
         <div className="w-full max-w-md space-y-4">
-          <div className="bg-white p-4 border-black border">
+          <div className="bg-black p-4 border-black border">
             <h2 className="text-xl font-bold mb-2">Wallet Connection</h2>
             <WalletBar />
           </div>
 
-          {/* Step 1 --> Read the latest block -- Start */}
-          {/* <div className={`p-4 border-black border`}>
+          { <div className={`p-4 border-black border`}>
             <h3 className="text-lg font-bold mb-2">Read the Blockchain</h3>
             <p>Current Block: 0</p>
-          </div> */}
-          {/* Step 1 --> Read the latest block -- End */}
+          </div> }
 
-          {/* Step 2 --> Read your balance -- Start */}
-          {/* <div className="p-4 bg-white border-black border">
+          { <div className="p-4 bg-black border-black border">
             <h3 className="text-lg font-bold mb-2">Your Balance</h3>
             <p>Symbol: XYZ</p>
             <p>Balance: 100</p>
-          </div> */}
-          {/* Step 2 --> Read your balance -- End */}
+          </div> }
 
-          {/* Step 5 --> Reset balance by owner only -- Start */}
-          {/* <div className="p-4 bg-white border-black border">
+          { <div className="p-4 bg-black border-black border">
             <h3 className="text-lg font-bold mb-2">Reset Balance</h3>
             <button
               onClick={() => console.log("Resetting...")}
@@ -63,15 +58,13 @@ const Page: FC = () => {
             <p className="mt-2 text-sm">
               Transaction sent: url
             </p>
-          </div> */}
-          {/* Step 5 --> Reset balance by owner only -- End */}
+          </div> }
 
         </div>
 
         <div className="w-full max-w-md space-y-4">
 
-          {/* Step 3 --> Read from a contract -- Start */}
-          {/* <div className="p-4 bg-white border-black border">
+          { <div className="p-4 bg-black border-black border">
             <h3 className="text-lg font-bold mb-2">Contract Balance</h3>
             <p>Balance: 0</p>
             <button
@@ -80,11 +73,9 @@ const Page: FC = () => {
             >
               Refresh
             </button>
-          </div> */}
-          {/* Step 3 --> Read from a contract -- End */}
+          </div> }
 
-          {/* Step 4 --> Write to a contract -- Start */}
-          {/* <form className="bg-white p-4 border-black border">
+          { <form className="bg-black p-4 border-black border">
             <h3 className="text-lg font-bold mb-2">Increase Counter</h3>
             <button
               type="submit"
@@ -100,11 +91,9 @@ const Page: FC = () => {
             >
               Check TX on Sepolia
             </a>
-          </form> */}
-          {/* Step 4 --> Write to a contract -- End */}
+          </form> }
 
-          {/* Step 6 --> Get events from a contract -- Start */}
-          {/* <div className="overflow-x-auto">
+          { <div className="overflow-x-auto">
             <table className="w-full border-collapse">
               <thead>
                 <tr>
@@ -119,8 +108,7 @@ const Page: FC = () => {
                 </tr>
               </tbody>
             </table>
-          </div> */}
-          {/* Step 6 --> Get events from a contract -- End */}
+          </div> }
 
         </div>
       </div>
